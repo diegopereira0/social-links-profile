@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+main,
+header,
+h1,
+img,
+p,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+/* Geral styles */
+body {
+  font-family: "Inter";
+  background: var(--neutral-900);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+}
+
+.box-links {
+  max-width: 384px;
+  margin: 0 auto;
+  padding: 2.5rem;
+  border-radius: 12px;
+  background: var(--neutral-800);
+  text-align: center;
+}
+
+.box-links header img {
+  border-radius: 400px;
+  width: 88px;
+  margin-bottom: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box-links header h1 {
+  margin-bottom: 4px;
+}
+
+.box-links header {
+  margin-bottom: 1.5rem;
+}
+
+.links-list {
+  margin-top: 1.5rem;
+}
+
+.links-list .button {
+  width: 100%;
+}
+
+.links-list li + li {
+  margin-top: 1rem;
+}
+
+@media (max-width: 500px) {
+  body {
+    align-items: stretch;
+  }
+
+  .box-links {
+    max-width: 100%;
+    margin: 1.25rem;
+  }
+}
