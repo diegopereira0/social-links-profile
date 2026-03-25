@@ -1,0 +1,27 @@
+:root {
+  --primary-color: #c4f82a;
+  --neutral-0: #ffffff;
+  --neutral-700: #333333;
+  --neutral-800: #1f1f1f;
+  --neutral-900: #141414;
+}
+
+.primary-color {
+  color: var(--primary-color);
+}
+
+.neutral-0 {
+  color: var(--neutral-0);
+}
+
+.neutral-700 {
+  color: var(--neutral-700);
+}
+
+.neutral-800 {
+  color: var(--neutral-800);
+}
+
+.neutral-900 {
+  color: var(--neutral-900);
+}
